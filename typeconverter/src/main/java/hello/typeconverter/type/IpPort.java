@@ -3,6 +3,7 @@ package hello.typeconverter.type;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
+//@EqualsAndHashCode can help us get "isequal" as true when properties values are equal ( even though they are pointing to different reference)
 @Getter
 @EqualsAndHashCode
 public class IpPort {
